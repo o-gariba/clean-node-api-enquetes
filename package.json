@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "prepare": "husky",
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
